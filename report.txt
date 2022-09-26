@@ -1,0 +1,35 @@
+Acceleration Round(summary):-
+1. visual studio(code editior+debugar+designer+other tools+extensibility)
+and some of the use full shortcut for the visual studio.
+build and rebuild:- A build is an option or a menu available in Visual Studio that is capable of performing an incremental build,
+ whereas rebuild is an option or a menu in Visual Studio that cleans and builds the solution from scratch.
+
+
+2. break point:-is used to debug line by line.
+fn+f10 and f11 used for break point.
+use of this two functions:-
+pressing F11 will take you to every line including your function body, 
+but F10 allows to move from one line to the the immediate next line.
+
+3.solution explorer:- a special window to manage our solutions, project and files.
+
+4.Nuget:-NuGet is the official package-manager for .NET. Packages are basically compiled library with some descriptive metadata.
+ NuGet is an essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. Often such code is bundled into “packages” that contain compiled code along with other content needed in the projects that consume these packages.
+5.about dot net frame work and dot net core.
+6. differance between this two.
+7..NET Core is to be used for the server application when –
+
+There is cross-platform need.
+Targeting microservices or using Docker containers.
+Need of high performance and scalable systems.
+Side by side need of .NET versions per application.
+.NET Framework is to be used for the server application when –
+
+Application is to be built to run only on Windows.
+If application uses .NET framework technologies not available for .NET Core.
+Applications that are already running on .NET Framework.
+
+8* Asp.net:-
+.NET is a developer platform made up of tools, programming languages, and libraries for building many different types of applications.
+9. Ado.net:- we can connect database with Ado.net.
+10.CLR and CLI are basic components of .NET Framework. This article is a basic introduction to .NET Common Language Runtime (CLR) and .NET Common Language Infrastructure (CLI).
