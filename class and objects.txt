@@ -1,0 +1,32 @@
+what is class and Object:-
+A class is a user-defined type that describes what a certain type of object will look like. 
+A class description consists of a declaration and a definition. Usually these pieces are split into separate files.
+An object is a single instance of a class. 
+You can create many objects from the same class type.
+use of class:-
+for code reusebility we mainly use class.
+CONSTRUCTOR:-
+Constructors have the same name as the class or struct, and they usually initialize the data members of the new object.
+in dot net frame work constructors are automaticly created.
+Access modifiers:-
+
+Modifier	Description
+public:-  The code is accessible for all classes
+private:-he code is only accessible within the same class
+protected:-The code is accessible within the same class, or in a class that is inherited from that class. 
+internal:-The code is only accessible within its own assembly, but not from another assembly.
+
+INHERITANCE:-
+Derived Class (child) - the class that inherits from another class
+Base Class (parent) - the class being inherited from.
+To inherit from a class, use the : symbol.
+example:-
+class Animal  // Base class (parent) 
+{
+  public virtual void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
+
+class Pig : Animal  // Derived class (child) 
